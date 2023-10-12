@@ -1,0 +1,32 @@
+{
+    "projectName": "MyAgamaProject",
+    "description": "My Agama Project updated updated",
+    "type": "community",
+    "author": "Gasmyr",
+    "version": "2.0.0",
+    "authorWebsite": "https://github.com/Gasmyr/agamaLabRepoPublished",
+    "githubUri": "https://github.com/Gasmyr/agamaLabRepoPublished",
+    "license": "MIT",
+    "lastUpdated": "1689761525602",
+    "tags": [
+        "jans"
+    ],
+    "noDirectLaunch": [
+        "keepRuning",
+        "checkcode"
+    ],
+    "configs": {
+        "Gasmyr.com.api.checkcode": {
+            "count": 15,
+            "values": [
+                1,
+                2,
+                3
+            ],
+            "authflow": {
+                "name": "otp",
+                "code": "otp01"
+            }
+        }
+    }
+}
